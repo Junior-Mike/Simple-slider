@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: rgb(105, 105, 105);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(199,199,199);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(80, 80, 80);
+    color: white;
+    outline: none;
+    border-radius: 7px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(80, 80, 80);
+    border: 2px solid rgb(51, 51, 51);
+}
+
+button:active {
+    color: rgb(209, 255, 209);
+    border:2px solid rgb(209, 255, 209);
+}
+
+.slider {
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider-line {
+    position: relative;
+    display: flex;
+    left: 0;
+    transition: all ease 1s;
+}
+
